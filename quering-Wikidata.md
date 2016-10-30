@@ -108,6 +108,11 @@ ORDER BY 2 DESC, 1;
 SELECT sch_id, count(*) as n FROM wd2schema_std
 GROUP BY 1  HAVING count(*)>1
 ORDER BY 2 DESC, 1;
+
+-- summarize Wikidata wd_id that repeat
+SELECT wd_id, count(*) as n FROM wd2schema_std
+GROUP BY 1  HAVING count(*)>1
+ORDER BY 2 DESC, 1;
 ```
 ### Results in 2016-06
 
@@ -136,3 +141,18 @@ pure equivprop | 63
 equivprop  | 15
 sub        | 12
 super      | 12
+
+### Results in 2016-10
+* `n_tot` = 435
+* repeated `wd_label`: service (13), seat (5), brand (2), collection (2), composer (2), duration (2), has part (2) ...
+* repeated `wd_id`:  Q7406919 (19), Q2731419 (5), P527 (2), P580 (2), P580 (2), P710 (2), P86 (2), Q186005 (2). 
+* repeated `sch_id`: AdministrativeArea (2), audience (2), award (2), BankOrCreditUnion (2), BarOrPub (2), brand (2)... 
+*  reltypes:
+
+|  reltype   | n  |
+|------------|----|
+ equivclass | 327
+ equivprop  |  82
+ sub        |  22
+ super      |   4
+
