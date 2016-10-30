@@ -67,7 +67,7 @@ WHERE {
 
 ## Standard SQL analysis
 
-After download as CSV (eg. file `wd2schema-raw-2016-06.csv`), produce a standard SQL table to manipulate data... We can use a script with absolute path "COPY table FROM '/tmp/file.csv'", any other have permission problems... To avoid both, split in three-line command with two scripts,
+After download as CSV (eg. file `wd2schema-raw-2016-06.csv`), produce a standard SQL table to manipulate data... We can use a script with absolute path "COPY table FROM '/tmp/file.csv'", any other have permission problems... To avoid both, split in three-line command with two SQL scripts ([step01](src/step01.sql) and [step02](src/step02.sql)),
 
 ```sh
  psql -h localhost -U postgres postgres < step01.sql 
