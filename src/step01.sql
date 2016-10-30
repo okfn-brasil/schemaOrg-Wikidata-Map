@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS wd2schema_std;
+DROP TABLE IF EXISTS wd2schema_std CASCADE;
 
 CREATE TABLE  IF NOT EXISTS wd2schema_std_temp (
 	pLabel text, p text,

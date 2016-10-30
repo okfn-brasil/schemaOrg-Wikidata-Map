@@ -1,0 +1,436 @@
+sch_id,reltype,wd_id,wd_label
+about,equivprop,entity/P921,main subject
+AccountingService,equivclass,entity/Q23671509,accounting services
+Action,equivclass,entity/Q4026292,action
+actor,equivprop,entity/P161,cast member
+addOn,equivprop,entity/P527,has part
+AdministrativeArea,equivclass,entity/Q3455524,administrative region
+AdministrativeArea,equivclass,entity/Q56061,administrative territorial entity
+agent,equivprop,entity/P710,participant
+aggregateRating,sub,entity/Q7406919,service
+Airport,equivclass,entity/Q1248784,airport
+AmusementPark,equivclass,entity/Q194195,amusement park
+AnatomicalStructure,equivclass,entity/Q4936952,anatomical structure
+AnimalShelter,equivclass,entity/Q1411287,animal shelter
+Answer,equivclass,entity/Q1920566,answer
+Apartment,equivclass,entity/Q188507,apartment
+Aquarium,equivclass,entity/Q2281788,public aquarium
+areaServed,sub,entity/Q7406919,service
+Artery,equivclass,entity/Q9655,artery
+ArtGallery,equivclass,entity/Q1007870,art gallery
+Article,equivclass,entity/Q191067,article
+Atlas,equivclass,entity/Q162827,atlas
+Attorney,equivclass,entity/Q40348,lawyer
+audience,equivprop,entity/P2360,intended public
+audience,sub,entity/Q7406919,service
+Audience,equivclass,entity/Q211198,audience
+audio,equivprop,entity/P51,audio
+Audiobook,equivclass,entity/Q106833,audiobook
+AudioObject,equivclass,entity/Q26987229,audio file
+author,equivprop,entity/P50,author
+AutoBodyShop,equivclass,entity/Q27003353,auto body shop
+AutomatedTeller,equivclass,entity/Q81235,automated teller machine
+AutoRental,equivclass,entity/Q291240,car rental
+availableChannel,sub,entity/Q7406919,service
+award,equivprop,entity/P166,award received
+award,sub,entity/Q7406919,service
+Bakery,equivclass,entity/Q274393,bakery
+BankOrCreditUnion,equivclass,entity/Q22687,bank
+BankOrCreditUnion,equivclass,entity/Q745877,credit union
+Barcode,equivclass,entity/Q856,barcode
+BarOrPub,equivclass,entity/Q212198,pub
+BarOrPub,equivclass,entity/Q187456,bar
+Beach,equivclass,entity/Q40080,beach
+BeautySalon,equivclass,entity/Q1195245,beauty salon
+BedAndBreakfast,equivclass,entity/Q367914,bed and breakfast
+birthDate,equivprop,entity/P569,date of birth
+birthPlace,equivprop,entity/P19,place of birth
+Blog,equivclass,entity/Q30849,blog
+BlogPosting,equivclass,entity/Q17928402,blog post
+BloodTest,equivclass,entity/Q27166236,blood test
+BodyOfWater,equivclass,entity/Q15324,body of water
+Bone,equivclass,entity/Q265868,bone
+Book,equivclass,entity/Q571,book
+BookSeries,equivclass,entity/Q277759,book series
+BookStore,equivclass,entity/Q200764,bookstore
+Boolean,equivclass,entity/Q520777,Boolean data type
+BowlingAlley,equivclass,entity/Q27106471,bowling alley
+brand,equivprop,entity/P1716,brand
+brand,sub,entity/Q7406919,service
+Brand,equivclass,entity/Q431289,brand
+Brewery,equivclass,entity/Q131734,brewery
+Bridge,equivclass,entity/Q12280,bridge
+BuddhistTemple,equivclass,entity/Q5393308,Buddhist temple
+BusOrCoach,equivclass,entity/Q5638,bus
+BusStation,equivclass,entity/Q494829,bus station
+BusStop,equivclass,entity/Q953806,bus stop
+byArtist,equivprop,entity/P175,performer
+CafeOrCoffeeShop,equivclass,entity/Q30022,café
+Campground,equivclass,entity/Q27108230,campground
+CampingPitch,equivclass,entity/Q832778,Campsite
+Canal,equivclass,entity/Q12284,canal
+Car,equivclass,entity/Q1144312,car
+Casino,equivclass,entity/Q133215,casino
+category,sub,entity/Q7406919,service
+CatholicChurch,equivclass,entity/Q1088552,Catholic church
+Cemetery,equivclass,entity/Q39614,cemetery
+Chapter,equivclass,entity/Q1980247,chapter
+character,equivprop,entity/P674,characters
+ChildCare,equivclass,entity/Q27008444,Childcare center
+children,equivprop,entity/P40,child
+Church,equivclass,entity/Q16970,church
+citation,equivprop,entity/P2860,cites
+City,equivclass,entity/Q515,city
+CityHall,equivclass,entity/Q543654,city hall
+Collection,equivclass,entity/P195,collection
+Collection,equivclass,entity/Q2668072,collection
+CollegeOrUniversity,equivclass,entity/Q189004,college
+CollegeOrUniversity,equivclass,entity/Q3918,university
+ComedyClub,equivclass,entity/Q2814066,comedy club
+ComicSeries,equivclass,entity/Q27164577,comic series
+ComicStory,equivclass,entity/Q1004,comic
+Comment,equivclass,entity/Q1141067,comment
+CommunityHealth,equivclass,entity/Q3473024,Community health
+composer,equivprop,entity/P86,composer
+ComputerLanguage,equivclass,entity/Q629206,computer language
+contentLocation,equivprop,entity/P840,narrative location
+contentRating,equivprop,entity/P1657,MPAA film rating
+Continent,equivclass,entity/Q5107,continent
+contributor,equivprop,entity/P767,contributor(s) to the subject
+Conversation,equivclass,entity/Q52943,conversation
+Corporation,equivclass,entity/Q167037,corporation
+Country,equivclass,entity/Q6256,country
+countryOfOrigin,equivprop,entity/P495,country of origin
+Course,equivclass,entity/Q600134,course
+Courthouse,equivclass,entity/Q1137809,courthouse
+CreativeWork,equivclass,entity/Q17537576,creative work
+CreativeWorkSeries,equivclass,entity/Q7725310,series of creative works
+creator,equivprop,entity/P170,creator
+CreditCard,equivclass,entity/Q161380,credit card
+Crematorium,equivclass,entity/Q157570,crematory
+DanceGroup,equivclass,entity/Q2393314,dance troupe
+DataFeed,equivclass,entity/Q5227292,Data feed
+Dataset,equivclass,entity/Q1172284,data set
+Date,equivclass,entity/Q3016931,Date
+dateCreated,equivprop,entity/P571,inception
+datePublished,equivprop,entity/P577,publication date
+dayOfWeek,equivprop,entity/P2894,day of week
+DayOfWeek,equivclass,entity/Q41825,day of the week
+DaySpa,equivclass,entity/Q11290050,day spa
+deathDate,equivprop,entity/P570,date of death
+deathPlace,equivprop,entity/P20,place of death
+DefenceEstablishment,equivclass,entity/Q18691599,military facility
+Demand,equivclass,entity/Q4402708,demand
+Dermatology,equivclass,entity/Q171171,dermatology
+DiagnosticProcedure,equivclass,entity/Q177719,diagnostic procedure
+Diet,equivclass,entity/Q26869695,Diet
+DietarySupplement,equivclass,entity/Q645858,dietary supplement
+director,equivprop,entity/P57,director
+distance,equivprop,entity/P2043,length
+Distance,equivclass,entity/Q126017,distance
+Distillery,equivclass,entity/Q1251750,distillery
+Drug,equivclass,entity/Q8386,drug
+duration,equivprop,entity/P2047,duration
+Duration,equivclass,entity/Q21886162,duration
+editor,equivprop,entity/P98,editor
+EducationalOrganization,equivclass,entity/Q5341295,educational organization
+Electrician,equivclass,entity/Q165029,electrician
+ElementarySchool,equivclass,entity/Q20950067,elementary school
+Embassy,equivclass,entity/Q3917681,embassy
+Emergency,equivclass,entity/Q5070802,emergency
+EmergencyService,equivclass,entity/Q814610,emergency service
+EmploymentAgency,equivclass,entity/Q261362,employment agency
+endDate,equivprop,entity/P582,end time
+Energy,equivclass,entity/Q11379,energy
+Episode,equivclass,entity/Q1983062,episode
+episodes,equivprop,entity/P1811,list of episodes
+EPRelease,equivclass,entity/Q169930,extended play
+Event,equivclass,entity/Q1656682,event
+EventVenue,equivclass,entity/Q18674739,event venue
+exifData,super,entity/P2009,Exif model
+exifData,super,entity/P2010,Exif make
+False,equivclass,entity/Q5432619,false
+familyName,equivprop,entity/P734,family name
+Festival,equivclass,entity/Q132241,festival
+FinancialProduct,equivclass,entity/Q15809678,financial product
+FinancialService,equivclass,entity/Q837171,financial services
+FireStation,equivclass,entity/Q1195942,fire station
+flightNumber,equivprop,entity/P3090,flight number
+Float,equivclass,entity/Q27150272,floating point number
+Florist,equivclass,entity/Q16735601,florist
+founder,equivprop,entity/P112,founder
+Game,equivclass,entity/Q11410,game
+GameServer,equivclass,entity/Q1315933,game server
+GasStation,equivclass,entity/Q205495,gas station
+GatedResidenceCommunity,equivclass,entity/Q75848,gated community
+gender,equivprop,entity/P21,sex or gender
+GeneralContractor,equivclass,entity/Q289612,general contractor
+genre,equivprop,entity/P136,genre
+geo,equivprop,entity/P625,coordinate location
+Geriatric,equivclass,entity/Q10384,geriatrics
+givenName,equivprop,entity/P735,given name
+GolfCourse,equivclass,entity/Q1048525,golf course
+GovernmentBuilding,equivclass,entity/Q16831714,government building
+GovernmentOrganization,equivclass,entity/Q2659904,government organization
+Gynecologic,equivclass,entity/Q1221899,gynaecology
+HairSalon,equivclass,entity/Q27038995,haircutting establishment
+hasOfferCatalog,sub,entity/Q7406919,service
+hasPart,equivprop,entity/P527,has part
+HealthClub,equivclass,entity/Q1065656,health club
+height,equivprop,entity/P2048,height
+HighSchool,equivclass,entity/Q9826,high school
+HinduTemple,equivclass,entity/Q842402,Hindu temple
+Hospital,equivclass,entity/Q16917,hospital
+Hostel,equivclass,entity/Q654772,hostel
+Hotel,equivclass,entity/Q27686,hotel
+HotelRoom,equivclass,entity/Q23541360,hotel room
+hoursAvailable,sub,entity/Q7406919,service
+House,equivclass,entity/Q3947,house
+HousePainter,equivclass,entity/Q288728,house painter
+iataCode,equivprop,entity/P238,IATA airport code
+icaoCode,equivprop,entity/P239,ICAO airport code
+IceCreamShop,equivclass,entity/Q1311064,ice cream parlor
+illustrator,equivprop,entity/P110,illustrator
+image,equivprop,entity/P18,image
+ImageObject,equivclass,entity/Q478798,image
+ImageObject,equivclass,entity/Q24063789,image file
+InfectiousDisease,equivclass,entity/Q18123741,infectious disease
+inLanguage,equivprop,entity/P364,original language of work
+inLanguage,equivprop,entity/P407,language of work or name
+InsuranceAgency,equivclass,entity/Q27038992,insurance agency
+Integer,equivclass,entity/Q12503,integer
+Integer,equivclass,entity/Q729138,Integer
+Invoice,equivclass,entity/Q190581,invoice
+isPartOf,equivprop,entity/P361,part of
+isrcCode,equivprop,entity/P1243,International Standard Recording Code
+isRelatedTo,sub,entity/Q7406919,service
+isSimilarTo,sub,entity/Q7406919,service
+issueNumber,equivprop,entity/P433,issue
+Joint,equivclass,entity/Q9644,joint
+LakeBodyOfWater,equivclass,entity/Q23397,lake
+Landform,equivclass,entity/Q271669,landform
+LandmarksOrHistoricalBuildings,equivclass,entity/Q2319498,landmark
+Language,equivclass,entity/Q34770,language
+LegalService,equivclass,entity/Q1494322,legal services
+Library,equivclass,entity/Q7075,library
+license,equivprop,entity/P275,license
+Ligament,equivclass,entity/Q39888,ligament
+LiquorStore,equivclass,entity/Q2632011,liquor store
+location,equivprop,entity/P276,location
+Locksmith,equivclass,entity/Q3479990,locksmith
+logo,equivprop,entity/P154,logo image
+logo,sub,entity/Q7406919,service
+LymphaticVessel,equivclass,entity/Q11238641,lymphatic vessel
+Map,equivclass,entity/Q4006,Map
+Mass,equivclass,entity/Q11423,mass
+MedicalClinic,equivclass,entity/Q27166452,medical clinic
+MedicalCode,equivclass,entity/Q27165776,medical code
+MedicalDevice,equivclass,entity/Q6554101,medical device
+MedicalGuideline,equivclass,entity/Q878041,Medical guideline
+MedicalOrganization,equivclass,entity/Q4287745,medical organization
+MedicalProcedure,equivclass,entity/Q796194,medical procedure
+MedicalSign,equivclass,entity/Q1441305,medical sign
+MedicalSpecialty,equivclass,entity/Q930752,medical specialty
+MedicalStudy,equivclass,entity/Q27166169,medical study
+MedicalSymptom,equivclass,entity/Q169872,symptom
+MedicalTest,equivclass,entity/Q2671652,medical test
+MedicalTrial,equivclass,entity/Q27166192,medical trial
+MeetingRoom,equivclass,entity/Q3469909,conference room
+memberOf,equivprop,entity/P463,member of
+Message,equivclass,entity/Q628523,message
+MiddleSchool,equivclass,entity/Q149566,middle school
+Midwifery,equivclass,entity/Q20862341,midwifery
+MobileApplication,equivclass,entity/Q620615,mobile app
+Mosque,equivclass,entity/Q32815,mosque
+Motel,equivclass,entity/Q216212,motel
+Motorcycle,equivclass,entity/Q34493,motorcycle
+Mountain,equivclass,entity/Q8502,mountain
+Movie,equivclass,entity/Q11424,film
+MovieTheater,equivprop,entity/Q41253,movie theater
+MovingCompany,equivclass,entity/Q1757263,moving company
+Muscle,equivclass,entity/Q7365,muscle
+Museum,equivclass,entity/Q33506,museum
+MusicAlbum,equivclass,entity/Q482994,album
+musicBy,equivprop,entity/P86,composer
+MusicComposition,equivclass,entity/Q207628,musical composition
+MusicGroup,equivclass,entity/Q215380,band
+MusicPlaylist,equivclass,entity/Q1569406,playlist
+MusicRelease,equivclass,entity/Q2031291,release
+MusicVenue,equivclass,entity/Q8719053,music venue
+NailSalon,equivclass,entity/Q8007048,Nail salon
+name,equivprop,entity/P2561,name
+name,equivprop,entity/P1476,title
+nationality,equivprop,entity/P27,country of citizenship
+Nerve,equivclass,entity/Q9620,nerve
+NewsArticle,equivclass,entity/Q5707594,news article
+Newspaper,equivclass,entity/Q11032,newspaper
+NGO,equivclass,entity/Q79913,non-governmental organization
+NightClub,equivclass,entity/Q622425,nightclub
+Notary,equivclass,entity/Q189010,notary
+Number,equivclass,entity/Q11563,number
+numberOfEpisodes,equivprop,entity/P1113,number of episodes
+numberOfPages,equivprop,entity/P1104,number of pages
+Nursing,equivclass,entity/Q121176,nursing
+Obstetric,equivclass,entity/Q5284418,obstetrics
+OccupationalTherapy,equivclass,entity/Q380141,occupational therapy
+OceanBodyOfWater,equivclass,entity/Q9430,ocean
+offers,sub,entity/Q7406919,service
+Oncologic,equivclass,entity/Q162555,oncology
+Optician,equivclass,entity/Q1996635,optician
+Optometric,equivclass,entity/Q618211,optometry
+Organization,equivclass,entity/Q43229,organization
+OutletStore,equivclass,entity/Q76470,outlet store
+Painting,equivclass,entity/Q3305213,painting
+PalliativeProcedure,equivclass,entity/Q27165812,palliative procedure
+parent,super,entity/P25,mother
+parent,super,entity/P22,father
+Park,equivclass,entity/Q22698,park
+ParkingFacility,equivclass,entity/Q27119725,parking facility
+participant,equivprop,entity/P710,participant
+Patient,equivclass,entity/Q181600,patient
+PawnShop,equivclass,entity/Q27108122,pawn shop
+PaymentCard,equivclass,entity/Q1436963,payment card
+PaymentMethod,equivclass,entity/Q1912682,payment method
+PerformingArtsTheater,equivclass,entity/Q24354,theater
+Periodical,equivclass,entity/Q41298,magazine
+Permit,equivclass,entity/Q79719,license
+Person,equivclass,entity/Q215627,person
+PetStore,equivclass,entity/Q220142,Pet store
+Pharmacy,equivclass,entity/Q13107184,community pharmacy
+Photograph,equivclass,entity/Q125191,photograph
+PhysicalExam,equivclass,entity/Q835153,medical examination
+PhysicalTherapy,equivclass,entity/Q186005,physiotherapy
+Physiotherapy,equivclass,entity/Q186005,physiotherapy
+Place,equivclass,entity/Q2221906,geographic location
+PlaceOfWorship,equivclass,entity/Q1370598,place of worship
+PlasticSurgery,equivclass,entity/Q182442,plastic surgery
+Playground,equivclass,entity/Q13607440,playground
+Plumber,equivclass,entity/Q252924,plumber
+Podiatric,equivclass,entity/Q18011356,podiatry
+PoliceStation,equivclass,entity/Q861951,police station
+Pond,equivclass,entity/Q3253281,pond
+position,equivprop,entity/P1545,series ordinal
+PostalAddress,equivclass,entity/Q319608,address
+PostOffice,equivclass,entity/Q35054,post office
+Preschool,equivclass,entity/Q1076052,preschool
+PrimaryCare,equivclass,entity/Q3259956,primary care
+producer,equivprop,entity/P162,producer
+Product,equivclass,entity/Q2424752,product
+ProductModel,equivclass,entity/Q17444171,model
+ProfessionalService,equivclass,entity/Q2029911,professional services
+provider,equivprop,entity/P176,manufacturer
+provider,sub,entity/Q7406919,service
+providerMobility,sub,entity/Q7406919,service
+Psychiatric,equivclass,entity/Q7867,psychiatry
+PsychologicalTreatment,equivclass,entity/Q27166103,psychological treatment
+PublicationVolume,equivclass,entity/Q19816504,volume
+PublicHealth,equivclass,entity/Q189603,public health
+PublicSwimmingPool,equivclass,entity/Q27106886,public swimming pool
+publisher,equivprop,entity/P123,publisher
+Quantity,equivclass,entity/Q614112,value
+Question,equivclass,entity/Q189756,question
+Quotation,equivclass,entity/Q206287,quotation
+RadiationTherapy,equivclass,entity/Q180507,radiation therapy
+RadioSeries,equivclass,entity/Q14623351,radio series
+RadioStation,equivclass,entity/Q14350,radio station
+RealEstateAgent,equivclass,entity/Q519076,real estate broker
+Recipe,equivclass,entity/Q219239,recipe
+recordedAt,equivprop,entity/P483,recorded at
+RecyclingCenter,equivclass,entity/Q27106436,recycling center
+Report,equivclass,entity/Q10870555,report
+Residence,equivclass,entity/Q27150063,residence
+Resort,equivclass,entity/Q875157,resort
+RespiratoryTherapy,equivclass,entity/Q19776279,respiratory therapy
+Restaurant,equivclass,entity/Q11707,restaurant
+review,sub,entity/Q7406919,service
+Review,equivclass,entity/Q265158,review
+reviewRating,equivprop,entity/P444,review score
+RiverBodyOfWater,equivclass,entity/Q4022,river
+Role,equivclass,entity/P2868,has role
+Role,equivclass,entity/Q214339,role
+roleName,equivprop,entity/P453,character role
+RoofingContractor,equivclass,entity/Q27057193,Roofing contractor
+Room,equivclass,entity/Q180516,room
+RVPark,equivclass,entity/Q1424620,RV park
+sameAs,equivprop,entity/P460,said to be the same as
+sameAs,equivprop,entity/P2888,exact match
+ScholarlyArticle,equivclass,entity/Q13442814,scientific article
+School,equivclass,entity/Q3914,school
+Sculpture,equivclass,entity/Q860861,sculpture
+SeaBodyOfWater,equivclass,entity/Q165,sea
+Seat,equivclass,entity/Q2731419,seat
+seatingType,sub,entity/Q2731419,seat
+seatNumber,sub,entity/Q2731419,seat
+seatRow,sub,entity/Q2731419,seat
+seatSection,sub,entity/Q2731419,seat
+SelfStorage,equivclass,entity/Q401404,Self storage
+Series,equivclass,entity/Q20937557,series
+Service,equivclass,entity/Q7406919,service
+serviceOutput,sub,entity/Q7406919,service
+serviceType,sub,entity/Q7406919,service
+ShoeStore,equivclass,entity/Q7500021,Shoe store
+ShoppingCenter,equivclass,entity/Q11315,shopping mall
+SingleRelease,equivclass,entity/Q134556,single
+SkiResort,equivclass,entity/Q130003,ski resort
+SoftwareApplication,equivclass,entity/Q166142,application
+SoftwareSourceCode,equivclass,entity/Q128751,source code
+sponsor,equivprop,entity/P859,sponsor
+SportsOrganization,equivclass,entity/Q4438121,sports organization
+SportsTeam,equivclass,entity/Q12973014,sports team
+spouse,equivprop,entity/P26,spouse
+StadiumOrArena,equivclass,entity/Q483110,stadium
+startDate,equivprop,entity/P580,start time
+startTime,equivprop,entity/P580,start time
+State,equivclass,entity/Q7275,state
+Store,equivclass,entity/Q213441,shop
+Substance,equivclass,entity/Q27166344,substance
+SubwayStation,equivclass,entity/Q928830,metro station
+Suite,equivclass,entity/Q1367530,Suite
+SuperficialAnatomy,equivclass,entity/Q3545415,Superficial anatomy
+SurgicalProcedure,equivclass,entity/Q15636229,surgical procedure
+Synagogue,equivclass,entity/Q34627,synagogue
+TattooParlor,equivclass,entity/Q27038997,tattoo parlor
+TaxiStand,equivclass,entity/Q1395196,taxicab stand
+TelevisionStation,equivclass,entity/Q1616075,television station
+TennisComplex,equivclass,entity/Q13380226,tennis venue
+Text,equivclass,entity/Q184754,string
+TextDigitalDocument,equivclass,entity/Q86920,text file
+TheaterGroup,equivclass,entity/Q2416217,theatre troupe
+Thesis,equivclass,entity/Q1266946,thesis
+Thing,equivclass,entity/Q35120,entity
+Thing,equivclass,entity/Q17553950,object
+tickerSymbol,equivprop,entity/P249,ticker symbol
+Time,equivclass,entity/Q186885,timestamp
+TouristAttraction,equivclass,entity/Q570116,tourist attraction
+TouristInformationCenter,equivclass,entity/Q1587716,visitor center
+ToyStore,equivclass,entity/Q1318959,Toy store
+TrainStation,equivclass,entity/Q55488,railway station
+translator,equivprop,entity/P655,translator
+TravelAgency,equivclass,entity/Q217107,travel agency
+True,equivclass,entity/Q16751793,true
+TVSeason,equivclass,entity/Q3464665,television season
+TVSeries,equivclass,entity/Q5398426,television series
+url,equivprop,entity/P2699,URL
+URL,equivclass,entity/Q42253,Uniform Resource Locator
+Vehicle,equivclass,entity/Q42889,vehicle
+Vehicle,equivclass,entity/Q752870,motor vehicle
+Vein,equivclass,entity/Q9609,veins
+Vessel,equivclass,entity/Q382386,vessel
+VeterinaryCare,equivclass,entity/Q170201,veterinary medicine
+video,equivprop,entity/P10,video
+VideoGame,equivclass,entity/Q7889,video game
+VideoGameSeries,equivclass,entity/Q7058673,video game series
+VideoObject,equivclass,entity/Q34508,video
+VisualArtwork,equivclass,entity/Q4502142,visual artwork
+VitalSign,equivclass,entity/Q1067560,vital signs
+Volcano,equivclass,entity/Q8072,volcano
+volumeNumber,equivprop,entity/P478,volume
+Waterfall,equivclass,entity/Q34038,waterfall
+WebApplication,equivclass,entity/Q189210,web application
+WebPage,equivclass,entity/Q36774,web page
+WebSite,equivclass,entity/Q35127,website
+width,equivprop,entity/P2049,width
+Winery,equivclass,entity/Q156362,winery
+WorkersUnion,equivclass,entity/Q178790,trade union
+worksFor,equivprop,entity/P108,employer
+Zoo,equivclass,entity/Q43501,zoo
