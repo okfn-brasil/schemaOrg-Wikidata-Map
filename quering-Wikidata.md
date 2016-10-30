@@ -1,5 +1,3 @@
-copy from https://github.com/schemaorg/schemaorg/wiki/Issue-280,-quering-Wikidata
-
 This wikipage is for *[issue-280](https://github.com/schemaorg/schemaorg/issues/280)'s working group* subsidy and reference.  See  also [Wikidata's Guidelines for external relationships](https://www.wikidata.org/wiki/Help:Statements/Guidelines_for_external_relationships#schema_case).
 
 -----
@@ -69,50 +67,21 @@ WHERE {
 
 ## Standard SQL analysis
 
-After download as CSV (eg. file `wd2schema-raw-2016-06.csv`), produce a standard SQL table to manipulate data,
- 
-```sql
-DROP TABLE IF EXISTS wd2schema_std;
+After download as CSV (eg. file `wd2schema-raw-2016-06.csv`), produce a standard SQL table to manipulate data... We can use a script with absolute path "COPY table FROM '/tmp/file.csv'", any other have permission problems... To avoid both, split in three-line command with two scripts,
 
-CREATE TABLE  IF NOT EXISTS wd2schema_std_temp (
-	pLabel text, p text,
-	equivclass text, equivprop text, sub text, super text
-);
+```sh
+ psql -h localhost -U postgres postgres < step01.sql 
 
-COPY wd2schema_std_temp FROM '/tmp/wd2schema-raw-2016-06.csv' CSV HEADER;
+ cat data/wd2schema-raw.csv | psql -h localhost -U postgres postgres -c "COPY wd2schema_std_temp FROM STDIN CSV HEADER"
 
--- adapat to better structure:
-CREATE TABLE wd2schema_std AS 
-  SELECT
-    COALESCE(equivclass,equivprop,sub,super) as sch_id,
-    CASE 
-	    WHEN equivclass IS NOT NULL THEN 'equivclass'
-	    WHEN equivprop IS NOT NULL THEN 'equivprop'
-	    WHEN sub IS NOT NULL THEN 'sub'
-	    WHEN super IS NOT NULL THEN 'super'
-    END as reltype,
-    p As wd_id,
-    plabel as wd_label
-  FROM wd2schema_std_temp
-;
-CREATE VIEW vw_wd2schema_std AS
-  SELECT *, reltype='equivprop' as rel_isprop,
-        ascii(substring(sch_id,1,1)::char)>87 as sch_isprop, 
-        substring(wd_id,1,1)='P' wd_isprop 
-  FROM wd2schema_std BY sch_id,reltype
-;
-DROP TABLE wd2schema_std_temp;
+ psql -h localhost -U postgres postgres < step02.sql 
 
--- clean:
-UPDATE wd2schema_std SET 
-   wd_id  = regexp_replace(wd_id,  '^https?://[a-z\.]+/?', ''),
-   sch_id = regexp_replace(sch_id, '^https?://[a-z\.]+/?', '')
-;
--- back as new file:
-COPY (SELECT * FROM wd2schema_std ORDER BY sch_id,reltype) 
-TO '/tmp/wd2schema-std-2016-06.csv' WITH CSV HEADER;
+ psql -h localhost -U postgres postgres -c "
+  COPY (SELECT * FROM wd2schema_std ORDER BY sch_id,reltype) TO STDOUT WITH CSV HEADER
+ " > data/wd2schema-std.csv
 ```
-So, as input we have `wd2schema-raw-2016-06.csv` and as output  `wd2schema-std-2016-06.csv`, and the SQL database with the same data to perform queries. 
+
+So, as input we have [`wd2schema-raw.csv`](data/wd2schema-raw.csv) and as output  [`wd2schema-std.csv`](data/wd2schema-std.csv), and the SQL database with the same data to perform queries. 
 
 ### Summarizations
 ```sql
@@ -140,6 +109,7 @@ GROUP BY 1  HAVING count(*)>1
 ORDER BY 2 DESC, 1;
 ```
 ### Results in 2016-06
+
 * `n_tot` = 156
 * repeated `wd_label`: location (13), image (3), audience (2), author (2), brand (2), ..., Uniform Resource Locator (2). Only 12 (8%).
 *  reltypes:
