@@ -34,5 +34,9 @@ So, providing SchemaOrg-side we enhance correct use and avoid confusion for Sche
 See  also [Wikidata's Guidelines for external relationships](https://www.wikidata.org/wiki/Help:Statements/Guidelines_for_external_relationships#schema_case).
 ...
 
+## Working with DBpedia methodology
+
+... using "mapping vocabularies"  experience of DBpedia experts... best practices and final automation ...
+
 ## Initial and target situations in 2017
 ...
