@@ -19,7 +19,7 @@ Wikidata and SchemaOrg also represents two choices of concept-semantic definitio
 
 * *Wikidata definition strategy* is based on Wikipedia. All entries (mainly stable classes) define intention associating item with corresponding Wikipedia's entry.
 
-So, providing SchemaOrg-side we enhance correct use and avoid confusion for SchemaOrg users.  Providing wikidata-side we enhance Wikidata definition and offer access to Wikidata users the biggest [semantic *corpus*](https://en.wikipedia.org/wiki/Corpus_linguistics) of the Web.
+So, providing SchemaOrg-side we enhance correct use and avoid confusion for SchemaOrg users.  Providing wikidata-side we enhance Wikidata definition and offer access to Wikidata users the biggest [semantic *corpus* sampler](https://en.wikipedia.org/wiki/Corpus_linguistics) of the Web.
 
 ## Working on SchemaOrg side
 ... to-do list:
