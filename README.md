@@ -15,11 +15,11 @@ In this project we want to join the two sides of the bridge!
 
 Wikidata and SchemaOrg also represents two choices of concept-semantic definition strategies, [extensional and intensional](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions):
 
-* *SchemaOrg definition strategy* is simple and pragmatic. All entries (classes and properties) define intention in a short  phrase, and the real concept is building by community, with extension at initial samples or statistics of use.
+* *SchemaOrg definition strategy* is simple and pragmatic. Each entry (class or property) is intensionally defined by a short  phrase, and the real concept is built extensionally by the community of users, with extension at initial samples or statistics of use.
 
-* *Wikidata definition strategy* is based on Wikipedia. All entries (mainly classes) define intention associating item with corresponding Wikipedia's entry.
+* *Wikidata definition strategy* is based on Wikipedia. All entries (mainly stable classes) define intention associating item with corresponding Wikipedia's entry.
 
-So, providing SchemaOrg-side we enhance correct use and avoid confusion for SchemaOrg users.  Providing wikidata-side we enhance Wikidata definition and offer access to Wikidata users the biggest semantic sampler of the Web.
+So, providing SchemaOrg-side we enhance correct use and avoid confusion for SchemaOrg users.  Providing wikidata-side we enhance Wikidata definition and offer access to Wikidata users the biggest [semantic *corpus*](https://en.wikipedia.org/wiki/Corpus_linguistics) of the Web.
 
 ## Working on SchemaOrg side
 ... to-do list:
