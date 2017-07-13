@@ -62,5 +62,5 @@ See  also [Wikidata's Guidelines for external relationships](https://www.wikidat
 
 ## TASKS
 
-* [PLANILHA VOTAÇÃO](https://docs.google.com/spreadsheets/d/1NjJNKzeTKXk6xiYdLv9iKCvvR68SOTGni90nZXjMJJ0/)
+* Check it out on our [PROJECT PAGE](https://github.com/CPT-PC/schemaOrg-bdMaps/projects)
 
