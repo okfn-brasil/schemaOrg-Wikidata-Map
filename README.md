@@ -59,3 +59,8 @@ See  also [Wikidata's Guidelines for external relationships](https://www.wikidat
 
 ### Initial and target situations in 2017
 ...
+
+## TASKS
+
+* [PLANILHA VOTAÇÃO](https://docs.google.com/spreadsheets/d/1NjJNKzeTKXk6xiYdLv9iKCvvR68SOTGni90nZXjMJJ0/)
+
