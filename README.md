@@ -4,7 +4,7 @@ Mapping semantic between [Schema.Org](http://schema.org) and main Wikipedia-foun
 
 * [Quering-Wikidata and installing SQL tool](docs/quering-Wikidata.md)
 * [Wikidata state summarizations](docs/reports.md)
-* ...
+
 
 Our focus is only the "core ontology" of SchemaOrg. Today, as stated by [schema.org/docs](http://schema.org/docs/schemas.html) of version 3.2,
 
@@ -38,15 +38,15 @@ Wikidata and SchemaOrg also represents two choices of concept-semantic definitio
 So, providing SchemaOrg-side we enhance correct use and avoid confusion for SchemaOrg users.  Providing wikidata-side we enhance Wikidata definition and offer access to Wikidata users the biggest [semantic *corpus* sampler](https://en.wikipedia.org/wiki/Corpus_linguistics) of the Web.
 
 ## Tasks and status
-...
+
+* Check it out on our [PROJECT PAGE](https://github.com/CPT-PC/schemaOrg-bdMaps/projects)
 
 ### Working on SchemaOrg side
-... to-do list:
+
 
 * To establish a convention (methodology) for inclusion of the definitional Wikidata-link in the RDF SchemaOrg item.
 * To include (where possible), in the "core SchemaOrg", the links
 
-...
 
 ### Working on Wikidata side
 ...
@@ -60,7 +60,4 @@ See  also [Wikidata's Guidelines for external relationships](https://www.wikidat
 ### Initial and target situations in 2017
 ...
 
-## TASKS
-
-* Check it out on our [PROJECT PAGE](https://github.com/CPT-PC/schemaOrg-bdMaps/projects)
 
