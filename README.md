@@ -6,7 +6,7 @@ Mapping semantic between [Schema.Org](http://schema.org), [Wikidata](http://wiki
 * [Wikidata state summarizations](docs/reports.md)
 
 
-Our focus is only the "core ontology" of Schema.Org](http://schema.org). Today, as stated by [schema.org/docs](http://schema.org/docs/schemas.html) of version 3.2,
+Our focus is  the "core ontology" of [Schema.Org](http://schema.org). Today, as stated by [schema.org/docs](http://schema.org/docs/schemas.html) of version 3.2,
 
 > The core vocabulary currently consists of 589 Types, 860 Properties, and 114 Enumeration values.
 
