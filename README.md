@@ -15,7 +15,7 @@ So, there are **~1600 items to be mapped** (~600 types + ~900 properties + ~100 
 ## Goals
 The first aim was expressed as SchemaOrg's [issue-280](https://github.com/schemaorg/schemaorg/issues/280), *"Schema.org should have mappings to Wikidata terms where possible"* ([Dan Brickley](https://github.com/danbri) - coordinator).
 
-This project aims to enhance the SchemaOrg core items definitions, citing in each core item its corresponding Wikidata item (e.g., add Wikidata-ID in the text of RFD-comment or linking explicitally adding RDF-statement to the external equivalent), and to link SchemaOrg items in the source code of corresponding Wikidata items.
+This project intends to enhance the SchemaOrg core items definitions, citing in each core item its corresponding Wikidata item (e.g., add Wikidata-ID in the text of RFD-comment or linking explicitally adding RDF-statement to the external equivalent), and to link SchemaOrg items in the source code of corresponding Wikidata items.
 
 ## Motivations
 
