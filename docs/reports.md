@@ -2,6 +2,13 @@
 # Wikidata state summarizations
 The state of the set of interesting nodes is obtained as a photo each time... See [quering-Wikidata](quering-Wikidata.md#summarizations) and [dumps of data here](../data). Bellow some results. 
 
+CONTENTS
+
+  - [in 2017-05](#in-2017-05)
+  - [in 2016-10](#in-2016-10)
+  - [in 2016-08](#in-2016-08)
+  - [in 2016-06](#in-2016-06)
+
 ## in 2017-05
 
 * `n_tot` = 508  &nbsp; (without "exact" reduces to 444)
