@@ -12,11 +12,6 @@ This wikipage is for *[issue-280](https://github.com/schemaorg/schemaorg/issues/
 
 * [Results](#results)
 
-  - [in 2017-05](#in-2017-05)
-  - [in 2016-10](#in-2016-10)
-  - [in 2016-08](#in-2016-08)
-  - [in 2016-06](#in-2016-06)
-
 -----
 
 ## Introduction
@@ -139,4 +134,10 @@ ORDER BY 2 DESC, 1;
 ```
 ## Results
 
-Quering and reporting results: see [reports.md](reports.md).
+Quering and reporting results. See [reports.md](reports.md), for specific dates:
+
+  - [in 2017-05](reports.md#in-2017-05)
+  - [in 2016-10](reports.md#in-2016-10)
+  - [in 2016-08](reports.md#in-2016-08)
+  - [in 2016-06](reports.md#in-2016-06)
+  
