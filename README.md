@@ -10,14 +10,14 @@ Documentation shortcuts:
 * [Quering-Wikidata and installing SQL tool](docs/quering-Wikidata.md)
 * [Wikidata state summarizations](docs/reports.md)
 * [Project's kanban with tasks and its status](https://github.com/okfn-brasil/schemaOrg-Wikidata-Map/projects/1)
-* [Collaborative spreadsheet for **ensorse and vocation**](https://docs.google.com/spreadsheets/d/1NjJNKzeTKXk6xiYdLv9iKCvvR68SOTGni90nZXjMJJ0/edit#gid=625350896) and its [preservated versions](data/wd2schema-std.csv).
+* [Collaborative spreadsheet for **endorse and votation**](https://docs.google.com/spreadsheets/d/1NjJNKzeTKXk6xiYdLv9iKCvvR68SOTGni90nZXjMJJ0/edit#gid=625350896) and its [preservated versions](data/wd2schema-std.csv).
 
 ## PRESENTATION
 Our focus is  the "core ontology" of [Schema.Org](http://schema.org). Today, as stated by [schema.org/docs](http://schema.org/docs/schemas.html) of version 3.3,
 
 > The core vocabulary currently consists of 597 Types, 875 Properties, and 114 Enumeration values.
 
-So, there are **~1500 items to be mapped** (~600 types + ~900 properties), in both Wikidata-side source codes and SchemaOrg-side [source code](https://github.com/schemaorg/schemaorg/blob/master/data/releases/3.3).
+So, there are **~1500 items to be mapped**, in both Wikidata-side source codes and SchemaOrg-side [source code](https://github.com/schemaorg/schemaorg/blob/master/data/releases/3.3).
 
 The first aim was expressed as SchemaOrg's [issue-280](https://github.com/schemaorg/schemaorg/issues/280), 
 > "Schema.org should have mappings to Wikidata terms where possible" &nbsp; ([Dan Brickley](https://github.com/danbri) - SchemaOrg coordinator).
