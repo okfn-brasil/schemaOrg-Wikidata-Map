@@ -61,7 +61,15 @@ See  also [Wikidata's Guidelines for external relationships](https://www.wikidat
 ...
 
 ## REPORTS
+Reporting the "state of the set of interesting nodes", as a photo each time... See [quering-Wikidata](quering-Wikidata.md#summarizations) and [dumps of data here](data). 
 
-...
+*Wikidata state* summarizations:
+
+  - [in 2017-05](docs/reports.md#in-2017-05)
+  - [in 2016-10](docs/reports.md#in-2016-10)
+  - [in 2016-08](docs/reports.md#in-2016-08)
+  - [in 2016-06](docs/reports.md#in-2016-06)
+
+
 
 
